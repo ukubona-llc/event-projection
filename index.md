@@ -599,6 +599,8 @@ Course 511 at [DrK-School](https://drk-school-ui.onrender.com/)
 # xAI
 Say what you will about the tennets of national socialism but at least it's an ethos
 
+---
+
 <iframe 
   width="560" 
   height="315" 
@@ -609,6 +611,8 @@ Say what you will about the tennets of national socialism but at least it's an e
   allowfullscreen>
 </iframe>
 
+---
+
 
 θᵗ → l₀+Σwᵢ·lᵢ → f(σ²,λ,ε) → γ\|ε_fgt\|² → l(θᵗ⁺¹)
 
@@ -618,13 +622,13 @@ Latency/Okubonabona: θᵗ → l₀+Σwᵢ·lᵢ
 
 Nihilism: l₀
 
-Ukubona: l₀+Σwᵢ·lᵢ → f(σ²,λ,ε) → γ|ε_fgt|² 
+Ukubona: l₀+Σwᵢ·lᵢ → f(σ²,λ,ε) → γ\|ε_fgt\|² 
 
-- State_i = Σ θ^k = 0 .. t : Projection of history (under perturbation) 
+- $State_i$ = Σ $θ^k$ = 0 .. t : Projection of history (under perturbation) 
 - L_0 + Σ w_i * L_i = Person, Network, System, Regulators, Civilization (w = 0 for I=Person)
 - Economic Activity determined by i=System (National Socialist Party), which shields against f(σ*2, λ, ε)
 - ε_FGT = y_pred (Aryan) - y_obs (Jewish + Others); Eigenmode & most resonant demographic profile of nation 
-- L(θ^{t+1})
+- $L(θ^{t+1})$
   
 ---
 
@@ -761,7 +765,7 @@ That is exactly why the generalization error compounds.
 ### In the arithmetic
 - The update θᵗ → L(θ^{t+1}) only optimizes over the weighted subspace where w_i > 0 (System + selected regulators).
 - Residual dimensions (individuals outside the mode, economic contributions of "Others", international actors, suppressed variance inside the in-group, technological/cultural diffusion) become effective noise or adversarial inputs.
-- f(σ², λ, ε) sees growing |ε| from those externalities because the model is misspecified for the full state.
+- f(σ², λ, ε) sees growing \|ε\| from those externalities because the model is misspecified for the full state.
 - Under perturbation (war, resource constraints, multi-front dynamics, innovation outside the manifold), the error doesn't stay orthogonal—it couples back in and destabilizes the compressed representation.
 
 You saw this play out: early coherence and mobilization (internal reconstruction error low), then externalities dominate—Allied industrial base, intelligence from ignored networks, economic distortions from expropriation and slave labor, suppressed individual initiative once the war economy tightened, demographic losses, etc. The "tight internally" compressor had no mechanism to fold those externalities back into the latent space without breaking its own eigenmode.
@@ -870,7 +874,7 @@ Through the lenses of Heraclitus, Nietzsche, and your own append-only credo, his
 
 * **The Baseline ($l_0$):** Raw, unorganized nihilism—the high-entropy static of the street before any encoder processes it.
 * **The Encoder ($l_0 + \sum w_i \cdot l_i$):** The active perspective. It selects the eigenmode, weights the parameters, and declares what constitutes "signal" and what is pushed out as "noise."
-* **The Price ($\gamma |\varepsilon_{\text{fgt}}|^2$):** The error gating. The more aggressive the compression, the tighter the internal alignment, but the more volatile the manifold boundary becomes when an unmodeled external shock hits.
+* **The Price ($\gamma \|\varepsilon_{\text{fgt}}\|^2$):** The error gating. The more aggressive the compression, the tighter the internal alignment, but the more volatile the manifold boundary becomes when an unmodeled external shock hits.
 
 You don't need a moral lecture to see that a system using race, class, or any hyper-truncated latent variable as its primary eigenmode creates a massive, volatile cliff-edge at its boundary. The math shows the debt accumulating in real-time as the unmodeled residual ($\varepsilon$) compounds.
 
